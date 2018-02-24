@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Responsive Layouts</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Nanum+Myeongjo|Slabo+27px" rel="stylesheet">
+</head>
+<body>
+
+	<div class="container">
+		<div class="headPart">
+			<h1>Responsive Layout Without Bootstrap</h1>
+			<p>This is a simple demonstration of organizing different elements without bootstrap so that when a browser is resized the elements adjust accordingly.The goal is obviusly to be completely functional with as simple coding as possible.This means avoiding media queries when possible etc. Maybe this is common knowledge for most but as I'm growing and learning. I haven't found a comprehensive tutorial on the web with this stuff. SO...here's my two cents.</p>
+		</div>
+		<div class="secondPart">
+			<div>
+				<h2>Working with Inline Block</h2>
+				<p>Let's say you have a group of objects that are all similar in size and shape. A common scenario would be if you  had multiple images or icons that you are setting side by side in a row. In our case,we'll use boxes. The easiest set-up is to set them in a parent container with text-align: center; to center them and then give each element a display: inline or inline-block. FYI, you do have to declare a width in order for this to work. Just keeping it real.</p>
+			</div>
+		</div>
+		<div  class="footPart">
+			<div class="frames"></div>
+			<div class="frames"></div>
+			<div class="frames"></div>
+			<div class="frames"></div>
+		</div>
+	</div>
+
+</body>
+</html>
