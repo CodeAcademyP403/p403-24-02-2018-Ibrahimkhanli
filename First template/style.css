@@ -1,0 +1,68 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+h1{
+	text-align: center;
+	font-size: 50px;
+}
+
+div{
+	box-sizing: border-box;
+}
+
+h4{
+	text-align: center;
+	font-style: italic;
+	font-size: 30px;
+	margin-top: 20px;
+}
+
+.secondPart div{
+	margin-top: 70px;
+	margin-bottom: 100px;
+	width: 46%;
+	display: inline-block;
+	font-size: 25px;
+	line-height: 35px;
+	word-spacing: 5px;
+}
+
+
+.secondPart div.secondPartFirst{
+	margin-left: 30px;
+}
+
+.secondPart div.secondPartSecond{
+	margin-right: 20px;
+	margin-left: 50px;
+}
+
+
+
+.footPart h3{
+	font-style: bold;
+	text-align: center;
+	font-size: 30px;	
+}
+
+
+.footPart button{
+	background-color: white;
+	border: 2px solid black;
+	padding: 15px 20px;
+	margin-left: 630px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	transition: all 1s linear;
+	width: 10%;
+}
+
+
+.footPart button:hover{
+	background-color: grey;
+	margin-left: 350px;
+	width: 50%;
+}
